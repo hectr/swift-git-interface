@@ -1,0 +1,12 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "ShellInterface",
+      "reason": null,
+      "repositoryURL": "https://github.com/hectr/swift-shell-interface",
+      "version": "0.0.1"
+    }
+  ],
+  "version": 1
+}
