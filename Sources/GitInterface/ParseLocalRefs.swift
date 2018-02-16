@@ -13,6 +13,8 @@ public struct ParseLocalRefs
         case invalidTagName          (file: String, line: Int, reference: String, name: String)
     }
     
+    public init() {}
+    
     // MARK: -
     
     public func execute(output: String) throws -> LocalRefsInfo

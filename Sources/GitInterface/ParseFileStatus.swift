@@ -15,6 +15,8 @@ public struct ParseFileStatus
         case invalidFileMode         (file: String, line: Int, fileStatus: String, mode: String)
     }
     
+    public init() {}
+    
     // MARK: -
     
     public func execute(diffOutput: String) throws -> FileStatus

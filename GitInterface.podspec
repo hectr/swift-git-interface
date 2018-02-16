@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GitInterface"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Git interface"
   s.description  = <<-DESC
      A git interface written in Swift.

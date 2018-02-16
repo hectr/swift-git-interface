@@ -24,6 +24,8 @@ public struct ParseISO8601Date: CustomStringConvertible
         return "\(formatter.dateFormat ?? "missing date format") (\(formatter.locale?.identifier ?? "missing locale")) -> Date"
     }
     
+    public init() {}
+    
     // MARK: -
     
     public func execute(date string: String) throws -> Date
